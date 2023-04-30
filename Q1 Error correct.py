@@ -31,7 +31,6 @@ def hamming_decode(encoded_data):
             if encoded_data[j] and (j+1) & (1<<i):
                 bit ^= 1
         syndrome.append(bit)
-
     # Correct any errors
     error = 0
     for i in range(r):
