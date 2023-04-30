@@ -28,3 +28,4 @@ key = "SECRET_KEY"
 plaintext = "HELLO WORLD"
 ciphertext = rc4(key, plaintext)
 print(ciphertext)
+ 
